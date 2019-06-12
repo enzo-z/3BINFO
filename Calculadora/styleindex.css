@@ -1,9 +1,12 @@
+*{
+    text-align: center;
+    background-color: brown;
+}
 div{
     text-align: center;
-    width: 300px;
-    border-style: solid; 
-    border: 30px red;
-    margin: 20px;
+}
+h1{
+    display: inline-block;
+    width: 100px;
 
-    
 }
