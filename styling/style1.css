@@ -11,7 +11,7 @@ body{
 header{
     background-color: #141418;;
     height: 100px;
-    width: 100%;
+    width: 100px;  /* OLHA ISSO AQUI PORRAAAAAA*/
 }
 
 footer{
@@ -40,9 +40,9 @@ footer{
     height: 80px;
     margin: 10px;
 }
-/* CLASSES */
+/* CLASSES */    
 .container{
-    width: 100%;
+    width: 500px;   /* OLHA ISSO AQUI TBM HEIN */
     margin: 0 auto;
 }
 
