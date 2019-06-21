@@ -1,0 +1,48 @@
+*{  /* The * refers to the whole page! */  
+    margin: 0;
+    padding: 0; /* Removes the space on the page,*/
+}
+
+/* elements */
+body{
+    background-color: black;
+}
+
+header{
+    background-color: #141418;;
+    height: 100px;
+    width: 100%;
+}
+
+footer{
+    clear: both;
+    background-color: blue;
+    height: 60px;
+}
+
+/* IDS */
+
+#div_left{
+    background-color: red;
+    min-height: 200px;
+    width: 70%;
+    float: left;
+}
+
+#div_right{
+    background-color: yellow;
+    height: 200px;
+    width: 30%;
+    float: right;
+}
+
+#logo{
+    height: 80px;
+    margin: 10px;
+}
+/* CLASSES */
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
