@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quadrados</title>
+    </head>
+
+    <body>
+        <button id="botao">CREATE SQUARE</button>
+        <div id = "folha"></div>
+        <script>
+            function desafio1 (){
+                var btnElement = document.getElementById('botao');
+                var divElement = document.getElementById('folha');
+                function getRandomColor() {
+                    var letters = '0123456789ABCDEF';
+                    var color = '#';
+                    for (var i = 0; i < 6; i++) {
+                        color += letters[Math.floor(Math.random() * 16)];
+                    }
+                    return color;
+                }
+
+                btnElement.onclick = function (){
+                    var quadrado = document.createElement('div');
+                    quadrado.style.width = '100px';
+                    quadrado.style.height = '100px';
+                    quadrado.style.margin = '10px';
+                    quadrado.style.backgroundColor = getRandomColor();
+                    divElement.appendChild(quadrado);
+                    quadrado.onmouseover = function (){
+                        quadrado.style.backgroundColor = getRandomColor();
+                    };
+
+                };   
+            } 
+
+            function desafio2 (){
+                var divElement = document.getElementById('folha');
+                var nomes = ['Diego', 'Gabriel', 'Lucas'];
+                var listaElement = document.createElement('ul');
+                for (let aux of nomes){
+                    var indiceLista = document.createElement('li');
+                    indiceLista.appendChild(document.createTextNode(aux));
+                    listaElement.appendChild(indiceLista);
+                  } 
+                 divElement.appendChild(listaElement);
+            }     
+            desafio1();
+
+            
+
+        </script>
+    </body>
+
+</html>

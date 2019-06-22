@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rockseat 2.2</title>
+    </head>
+
+
+    <body>
+        <div id="test">
+            Nome<input type="text" name="nome">
+            <button id="botao">Submit</button>
+        </div>
+
+       
+        <script> 
+            //Manipula-se a DOM através do JS. Não suja o HTML!
+            var btnElement = document.querySelector('button#botao');
+            var inputElement = document.querySelector("div#test input[name=nome]");
+            console.log(inputElement);
+            btnElement.onclick = function(){
+                let text = inputElement.value; 
+                alert(text + ' é bocó');
+            }
+            
+            var linkElement = document.createElement('a');
+            linkElement.setAttribute('href', 'https://www.google.com/');
+            linkElement.setAttribute('title', 'ULALA' );
+
+            var text = document.createTextNode('google!');
+            linkElement.appendChild(text);
+
+            var containerElement = document.getElementById('test'); 
+            containerElement.appendChild(linkElement);
+
+            containerElement.removeChild(btnElement);
+
+        </script>
+    </body>
+</html>

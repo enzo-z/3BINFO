@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rockeatseat JS</title>
+    </head>
+
+    <body>
+        <h1>Olá Marilene</h1>
+        
+        <script> 
+            function desafio1(){
+                var endereco = {
+                    rua: "Rua dos pinheiros",
+                    numero: 1293,
+                    bairro: 'Centro',
+                    cidade: "Sao Paulo",
+                    uf: "SP"
+                };
+                console.log('O usuario mora em ', endereco.cidade, ' /', endereco.uf, ', no bairro', endereco.bairro,', na rua "', endereco.rua,'" com nº ', endereco.numero,'.');
+                //O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" comnº 1293.
+            }
+            
+            function desafio2(){
+                //Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+                exibapares(32,321);
+                
+                function exibapares(n1, n2){
+                    n1 = (n1 % 2 == 0) ? n1 : n1+=1;
+                    while (n1 <= n2){
+                        console.log(n1);
+                        n1 +=2;
+                    }
+                }
+            }
+
+
+            function desafio3(){
+                //Escreva uma função que verifique se o vetor de habilidades passado possui 
+                //"Javascript" e retorna um booleano true/false caso exista ou não.
+                var skills = ['JavaScript', 'ReactJS', 'React Native' ];
+                console.log( temhabilidade(skills) );
+                
+            
+                function temhabilidade (skills){
+                    var retorno = (skills.indexOf('JavaScript') == 0);
+                    return (retorno);
+                }
+
+
+            }
+            
+            function desafio4(){
+                //Ecreva uma função que dado um total de anos de estudo retorna o quão experiente o usuário é
+                var anosEstudo = 2;
+                console.log(experiencia(anosEstudo));
+                
+
+                function experiencia(anos){
+                    if (anos  <= 1) {
+                        return ('Iniciante');
+                    }
+                    else if (anos <=3){
+                        return ('Intermediário');
+                    }
+                    else if (anos <= 6){
+                        return ('Avançado');
+                    }
+                    else {
+                        return ('Jedi Master');
+                    }
+                }
+            }
+            
+
+            function desafio5(){
+                var usuarios = [
+                    {
+                        nome: 'Diego',
+                        habilidades: ['Javascript', 'ReactJS', 'Redux']
+                    },
+                    {
+                        nome: 'Gabriel',
+                        habilidades: ['VueJS', 'Ruby on Rails', 'Elixir']
+                    }
+                ];
+                imprime(usuarios);
+
+                function imprime(usuarios){
+                    for (aux of usuarios){
+                        console.log(
+                            'O ' + aux.nome + 'possui as habilidades: ' + aux.habilidades.join(', ') 
+                        );
+                    }
+                }
+
+
+            }
+            desafio5();
+    
+
+        </script>
+    </body>
+</html>
