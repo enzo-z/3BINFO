@@ -1,12 +1,54 @@
 *{
-    text-align: center;
-    background-color: brown;
-}
-div{
-    text-align: center;
-}
-h1{
-    display: inline-block;
-    width: 100px;
+    margin: 0;
+    padding: 0px;
 
+}
+body{
+    background-color: black;
+}
+header{
+    height: 75px;
+    background-image: linear-gradient(to bottom,  #0066ff, #2d2d86   130%);
+    border-radius: 4px;
+    padding-top: 25px;
+    border: 1px solid black;
+}
+
+footer{
+    height: 35px;
+    background-color: blue;
+    padding: 20px;
+}
+
+h1{
+    text-shadow: 2px 1px 1px black;
+
+}
+
+
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.entrada{
+    color: white;
+}
+
+#main{
+    min-height: 400px;
+    width: 100%;
+    background-image: url(img/back.jpeg);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#content{
+    width: 40%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 15px;
 }
