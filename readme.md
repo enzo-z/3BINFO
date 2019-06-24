@@ -18,8 +18,8 @@ It will focus on *Web Development* (HTML, CSS, JS and PHP)!
 ###PHPLearning
 	Directory for testing my PHP, learning sakes! 
 	
-### Calculator : **EMPTY**
-	After I learn JS, I will try to develop an simple calculator in JS. This directory is empty, tho. 
+### Calculator : **DOING**
+	Developing an simple calculator in JS. IT'S STILL VERY RAW!
 
 
 
