@@ -18,10 +18,18 @@ footer{
     height: 35px;
     background-color: blue;
     padding: 20px;
+    text-align: center;
 }
 
 h1{
     text-shadow: 2px 1px 1px black;
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-family: Helvetica, arial, sans-serif;
 
 }
 
@@ -30,10 +38,6 @@ h1{
 .container{
     height: 100%;
     margin: 0 auto;
-}
-
-.entrada{
-    color: white;
 }
 
 #main{
