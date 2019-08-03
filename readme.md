@@ -14,22 +14,16 @@ It will focus on *Web Development* (HTML, CSS, JS and PHP)!
 ### JSLearning
 	This directory is my online JavaScript class at Rocketseat! I will try to follow the class and test things that I learned. 
 
-
-###PHPLearning
-	Directory for testing my PHP, learning sakes! 
 	
-### Calculator : **DOING**
+### Calculator : **DOING, KINDA FORGOT XD**
 	Developing an simple calculator in JS. IT'S STILL VERY RAW!
 
 
 
 ## PLANNING:
-	1. Learn HTML **|DONE|**  
-	2. Learn CSS **|DONE|**  
-	3. Learn JS *doing*  
-	4. Develop an web page that will have an JS Calculator, an memory card   game, an quadratic function calculator, an MDC calculator  
-	5. Learn PHP *doing* 
-	6. Reproduce in this web page the form that professor Renato teached in class  
+
+1. Learn JS *doing* **|Already know what my teacher is doing in class, tho!|**  
+2. Learn PHP *doing* **|Already know what my teacher is doing in class, tho!|** 
 
   
 
